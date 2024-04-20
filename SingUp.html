@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SingUp</title>
+    <style>
+        *{margin: 0px;padding: 0px;box-sizing: border-box;}
+        .sing{
+            display: flex;
+            background-color: green;
+            flex-direction: column;
+            height: 100vh;
+            align-items: center;
+            justify-content: center;
+            gap: 30px;
+            font-size: 20px;
+            color: white;
+            
+        }
+        .sing>div>input{
+            font-size: 25px;
+            padding: 5px 10px;
+        }
+    </style>
+</head>
+<body>
+    <form action="" onsubmit="sing(event)">
+        <div class="sing">
+            <h1>Sing Up ..................</h1>
+            <div><input type="text" placeholder="Enter Name"></div>
+            <div><input type="email" placeholder="Enter Email"></div>
+            <div><input type="password" placeholder="Enter Password"></div>
+            <div><input type="submit" value="SingUp...."></div>
+        </div>
+    </form>
+    
+</body>
+<script src="./Main.js"></script>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SingUp</title>
+    <style>
+        *{margin: 0px;padding: 0px;box-sizing: border-box;}
+        .login{
+            display: flex;
+            background-color: green;
+            flex-direction: column;
+            height: 100vh;
+            align-items: center;
+            justify-content: center;
+            gap: 30px;
+            font-size: 20px;
+            color: white;
+            
+        }
+        .login>div>input{
+            font-size: 25px;
+            padding: 5px 10px;
+        }
+    </style>
+</head>
+<body>
+    <form action="" onsubmit="login(event)">
+        <div class="login">
+            <h1>Login </h1>
+            
+            <div><input id="loginEmail" type="email" placeholder="Enter Email"></div>
+            <div><input id="loginPass" type="password" placeholder="Enter Password"></div>
+            <div><input type="submit" value="Login"></div>
+        </div>
+    </form>
+    
+</body>
+<script src="./Main.js">
+</script>
+</html>
